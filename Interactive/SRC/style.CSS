@@ -1,0 +1,206 @@
+body{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    background-color: rgb(20, 21, 25);
+    
+}
+.main{
+    background-color:#1f2630;
+    height: 350px;
+    width: 400px;
+    border-radius: 25px;
+    margin-top: 200px;
+}
+
+.second1{
+    margin-left: 20px;
+    margin-top: 20px;
+    font-family: 'Overpass', sans-serif;
+}
+
+.image{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(39, 46, 56);
+    border-radius: 30px;
+
+}
+
+.img{
+    margin-top: 16px;
+    margin-left: 17px;
+}
+
+h2{
+    color:white;
+}
+
+p{
+    font-size:15px;
+    color: hsl(217, 12%, 63%);
+}
+
+ul{
+    display: flex;
+   justify-content: space-between;
+   padding: 0;
+   margin-right: 20px;
+}
+
+li{
+    list-style-type: none;
+}
+
+.btn{
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: rgb(39, 46, 56);
+    border: none;
+    color: hsl(217, 12%, 63%);
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    padding-top: 7px;
+}
+
+.btn:hover{
+    background-color: rgb(123, 136, 152);
+    cursor: pointer;
+    color: white;
+}
+
+.mainbutton{
+    height: 50px;
+    width: 360px;
+    background-color:rgb(254,118,16);
+    border: none;
+    border-radius: 30px;
+    font-size: 15px;
+    font-family: 'Overpass', sans-serif;
+    letter-spacing: 3px;
+    color: white;
+}
+
+.mainbutton:hover{
+    background-color: white;
+    color: rgb(254,118,16);
+}
+
+
+
+
+.main2{
+    display: none;
+    position: absolute;
+    background-color:#1f2630;
+    height: 380px;
+    width: 400px;
+    border-radius: 25px;
+    margin-top: 200px;
+    text-align: center;
+    font-family: 'Overpass', sans-serif;
+}
+
+.second{
+    margin-left: 20px;
+    margin-top: 20px;
+    font-family: 'Overpass', sans-serif;
+}
+
+.img1{
+    margin-top: 30px;
+    margin-right: 20px;
+}
+
+h1{
+    color: white;
+
+}
+
+.div1{
+    height: 30px;
+    width: 200px;
+    background-color: rgb(38, 47, 56);
+    border-radius: 20px;
+    margin-left: 90px;
+}
+
+.par1{
+    color:rgb(254,118,16);
+    padding-top: 7px;
+}
+
+.par{
+    color: hsl(217, 12%, 63%);
+    margin-right: 25px;
+}
+
+@media screen and (max-width:960px){
+    .main{
+        background-color:#1f2630;
+        height: 350px;
+        width: 300px;
+        border-radius: 25px;
+        margin-top: 20px;
+    }
+
+    .btn{
+        width: 45px;
+        height: 45px;
+        border-radius: 30px;
+        background-color: rgb(39, 46, 56);
+        border: none;
+        color: hsl(217, 12%, 63%);
+        box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    }
+
+    .mainbutton{
+        height: 50px;
+        width: 260px;
+        background-color:rgb(254,118,16);
+        border: none;
+        border-radius: 30px;
+        font-size: 15px;
+        font-family: 'Overpass', sans-serif;
+        letter-spacing: 3px;
+        color: white;
+    }
+
+    .main2{
+        display: none;
+        position: absolute;
+        background-color:#1f2630;
+        height: 350px;
+        width: 300px;
+        border-radius: 25px;
+        margin-top: 20px;
+        font-family: 'Overpass', sans-serif;
+    }
+
+    .second{
+        margin-left: 5px;
+        margin-top: 20px;
+        font-family: 'Overpass', sans-serif;
+    }
+
+    .div1{
+        height: 30px;
+        width: 200px;
+        background-color: rgb(38, 47, 56);
+        border-radius: 20px;
+    }
+    
+    .par1{
+        color:rgb(254,118,16);
+        padding-top: 7px;
+    }
+
+    .par{
+        color: hsl(217, 12%, 63%);  
+    }
+
+    .img1{
+        margin-top: 20px;
+        margin-right: 20px;
+    }
+}
